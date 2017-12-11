@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="10dp"
+    tools:context="com.example.ajaysharvesh.techqpro1.Functions.TopicList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/head"
+        android:text="Basics"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/subhead"
+        android:text="syntax"
+        android:layout_below="@+id/head"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/image10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"/>
+
+       <!-- <Button
+             android:id="@+id/btn_nxt"
+             android:layout_width="150dp"
+             android:layout_marginTop="350dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentEnd="true"
+             android:layout_alignParentRight="true"
+             android:layout_gravity="center"
+             android:background="@drawable/button_style"
+             android:gravity="center"
+             android:text="Next"
+             android:layout_below="@+id/subhead"
+             android:textColor="@color/white"
+             android:textStyle="bold" />
+
+         <Button
+             android:id="@+id/btn_pre"
+             android:layout_marginTop="350dp"
+             android:layout_width="150dp"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_gravity="center"
+             android:background="@drawable/button_style"
+             android:gravity="center"
+             android:text="Previous"
+             android:textColor="@color/white"
+             android:textStyle="bold" /> -->
+
+    </RelativeLayout>
+
+</ScrollView>

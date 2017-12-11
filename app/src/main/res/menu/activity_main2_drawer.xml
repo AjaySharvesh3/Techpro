@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:title="Topics"
+            android:icon="@drawable/ic_event_available_black_24dp_events"/>
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_all_inclusive_black_24dp"
+            android:title="Learn" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="My Profile" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_chatbot"
+                android:title="Chatbot"
+                android:icon="@drawable/ic_action_name_chatbot"/>
+            <item
+                android:id="@+id/nav_rating"
+                android:icon="@drawable/ic_thumbs_up_down_black_24dp"
+                android:title="Rating" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_feedback_black_24dp"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_arrow_back_black_24dp"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

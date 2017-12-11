@@ -1,0 +1,60 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/black"
+    tools:context="com.example.ajaysharvesh.techqpro1.Fragments.EventsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:id="@+id/topics"
+        android:src="@drawable/topics"
+        android:contentDescription="image"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/topics"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/topics"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"/>
+        <!--android:fontFamily="monospace" -->
+
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_below="@+id/txt"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="@string/clickhere"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed"/>
+
+    </LinearLayout>
+
+</FrameLayout>
