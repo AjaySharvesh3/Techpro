@@ -84,13 +84,13 @@ public class RegularExpression extends AppCompatActivity {
         Glide.with(getApplicationContext()).load(url17).into(imageView16);
         Glide.with(getApplicationContext()).load(url18).into(imageView17);
 
-        /**nxt12.setOnClickListener(new View.OnClickListener() {
+        nxt12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(RegularExpression.this, Methods.class) ;
                 startActivity(i);
             }
-        });*/
+        });
 
         pre12.setOnClickListener(new View.OnClickListener() {
             @Override

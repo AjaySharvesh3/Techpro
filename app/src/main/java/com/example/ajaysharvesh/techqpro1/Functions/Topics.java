@@ -9,13 +9,23 @@ import android.widget.ListView;
 
 import com.example.ajaysharvesh.techqpro1.ArraysLists;
 import com.example.ajaysharvesh.techqpro1.BasicOperators;
+import com.example.ajaysharvesh.techqpro1.DataStructures;
 import com.example.ajaysharvesh.techqpro1.DateAndTime;
 import com.example.ajaysharvesh.techqpro1.DecisionMaking;
+import com.example.ajaysharvesh.techqpro1.Encapsulation;
+import com.example.ajaysharvesh.techqpro1.ExceptionHandling;
+import com.example.ajaysharvesh.techqpro1.FilesIo;
+import com.example.ajaysharvesh.techqpro1.Inheritance;
+import com.example.ajaysharvesh.techqpro1.Interfaces;
 import com.example.ajaysharvesh.techqpro1.Lists.BasicSyntax;
 import com.example.ajaysharvesh.techqpro1.Lists.DataTypes;
 import com.example.ajaysharvesh.techqpro1.Lists.ObjectClass;
 import com.example.ajaysharvesh.techqpro1.LoopControls;
+import com.example.ajaysharvesh.techqpro1.Methods;
 import com.example.ajaysharvesh.techqpro1.Numbers;
+import com.example.ajaysharvesh.techqpro1.Overriding;
+import com.example.ajaysharvesh.techqpro1.PakagesP;
+import com.example.ajaysharvesh.techqpro1.Polymorphism;
 import com.example.ajaysharvesh.techqpro1.R;
 import com.example.ajaysharvesh.techqpro1.RegularExpression;
 import com.example.ajaysharvesh.techqpro1.Strings;
@@ -84,6 +94,36 @@ public class Topics extends AppCompatActivity {
                 } if(position == 11 ) {
                     Intent i = new Intent(view.getContext(), RegularExpression.class);
                     startActivityForResult(i, 11);
+                } if(position == 12 ) {
+                    Intent i = new Intent(view.getContext(), Methods.class);
+                    startActivityForResult(i, 12);
+                } if(position == 13 ) {
+                    Intent i = new Intent(view.getContext(), FilesIo.class);
+                    startActivityForResult(i, 13);
+                } if(position == 14 ) {
+                    Intent i = new Intent(view.getContext(), ExceptionHandling.class);
+                    startActivityForResult(i, 14);
+                } if(position == 15 ) {
+                    Intent i = new Intent(view.getContext(), Inheritance.class);
+                    startActivityForResult(i, 15);
+                } if(position == 16 ) {
+                    Intent i = new Intent(view.getContext(), Overriding.class);
+                    startActivityForResult(i, 16);
+                } if(position == 17 ) {
+                    Intent i = new Intent(view.getContext(), Polymorphism.class);
+                    startActivityForResult(i, 17);
+                } if(position == 18 ) {
+                    Intent i = new Intent(view.getContext(), Encapsulation.class);
+                    startActivityForResult(i, 18);
+                } if(position == 19 ) {
+                    Intent i = new Intent(view.getContext(), Interfaces.class);
+                    startActivityForResult(i, 19);
+                } if(position == 20 ) {
+                    Intent i = new Intent(view.getContext(), PakagesP.class);
+                    startActivityForResult(i, 20);
+                } if(position == 21 ) {
+                    Intent i = new Intent(view.getContext(), DataStructures.class);
+                    startActivityForResult(i, 21);
                 }
 
             }

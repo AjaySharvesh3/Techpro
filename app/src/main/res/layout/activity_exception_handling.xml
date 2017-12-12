@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajaysharvesh.techqpro1.ExceptionHandling">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exc"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"/>
+    <ImageView
+        android:id="@+id/eh1"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh2"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh3"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh4"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh5"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh6"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh7"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh8"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh9"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh10"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh11"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh12"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+        android:id="@+id/eh13"
+        android:layout_width="match_parent"
+        android:layout_height="390dp" />
+        <ImageView
+        android:id="@+id/eh14"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+        <ImageView
+        android:id="@+id/eh15"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+        <ImageView
+        android:id="@+id/eh16"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" />
+        <ImageView
+        android:id="@+id/eh17"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" />
+        <ImageView
+            android:id="@+id/eh18"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+        <ImageView
+            android:id="@+id/eh19"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+        <ImageView
+            android:id="@+id/eh20"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <ImageView
+            android:id="@+id/eh21"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh22"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh23"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh24"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/python"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            android:padding="4dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold|italic"/>
+        <ImageView
+            android:id="@+id/eh25"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh26"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh27"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh28"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh29"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh30"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh31"
+            android:layout_width="match_parent"
+            android:layout_height="330dp" />
+        <ImageView
+            android:id="@+id/eh32"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh33"
+            android:layout_width="match_parent"
+            android:layout_height="450dp" />
+        <ImageView
+            android:id="@+id/eh34"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/btn_nxt15"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="@string/nxt"
+            android:layout_gravity="center"
+            android:layout_below="@+id/subhead"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_pre15"
+            android:layout_width="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_style"
+            android:text="@string/pre"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

@@ -84,8 +84,37 @@
         <activity
             android:name=".DateAndTime"
             android:parentActivityName=".Functions.Topics" />
-        <activity android:name=".RegularExpression"
-            android:parentActivityName=".Functions.Topics"/>
+        <activity
+            android:name=".RegularExpression"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Methods"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".FilesIo"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".ExceptionHandling"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Inheritance"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Overriding"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Polymorphism"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Encapsulation"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".Interfaces"
+            android:parentActivityName=".Functions.Topics" />
+        <activity
+            android:name=".PakagesP"
+            android:parentActivityName=".Functions.Topics" />
+        <activity android:name=".DataStructures"></activity>
     </application>
 
 </manifest>

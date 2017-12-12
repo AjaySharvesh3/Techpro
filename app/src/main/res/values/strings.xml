@@ -109,5 +109,15 @@
     <string name="arr">Arrays and Lists</string>
     <string name="dnt">Date and Time</string>
     <string name="reg">Regular Expression</string>
+    <string name="methods">Methods</string>
+    <string name="files">Files and IO</string>
+    <string name="exc">Exception Handling</string>
+    <string name="in">Inheritance</string>
+    <string name="over">Overriding</string>
+    <string name="poly">Polymorphism</string>
+    <string name="encap">Encapsulation</string>
+    <string name="inter">Interfaces</string>
+    <string name="pack">Packages</string>
+    <string name="ds">Data Structures</string>
 
 </resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajaysharvesh.techqpro1.PakagesP">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pack"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"/>
+
+    <ImageView
+        android:id="@+id/pk1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/pk2"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+        <ImageView
+            android:id="@+id/pk3"
+            android:layout_width="match_parent"
+            android:layout_height="330dp" />
+        <ImageView
+            android:id="@+id/pk4"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/pk5"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/pk6"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/pk7"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/pk8"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        <Button
+            android:id="@+id/btn_nxt21"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="@string/nxt"
+            android:layout_gravity="center"
+            android:layout_below="@+id/subhead"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_pre21"
+            android:layout_width="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_style"
+            android:text="@string/pre"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>
