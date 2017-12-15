@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context="com.example.ajaysharvesh.techqpro1.FeedbackActivity.Feedback">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.FeedbackActivity.Feedback">
 
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
-        android:src="@drawable/logo9" />
+        android:src="@drawable/ourlogo" />
 
     <TextView
         android:id="@+id/sample"
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/name1"
-        android:drawableLeft="@drawable/ic_action_firstname"
+        android:drawableLeft="@drawable/ic_action_name_feedback"
         android:background="@drawable/bottom_style1"
         android:textColorHint="@color/white"
         android:textColor="@color/white"

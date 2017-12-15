@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ajaysharvesh.techqpro1.DecisionMaking">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Lists.DecisionMaking">
 
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
 
         <Button
             android:id="@+id/btn_nxt7"
-            android:layout_width="150dp"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:background="@drawable/button_style"
             android:text="@string/nxt"
@@ -90,7 +90,7 @@
         <Button
             android:layout_marginBottom="5dp"
             android:id="@+id/btn_pre7"
-            android:layout_width="150dp"
+            android:layout_width="400dp"
             android:layout_marginTop="5dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

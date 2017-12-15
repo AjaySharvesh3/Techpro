@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Lists.Multithreading">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multi"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/java"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold|italic"/>
+
+    <ImageView
+        android:id="@+id/mt1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt3"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt4"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt5"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt6"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt7"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt8"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt9"
+            android:layout_width="match_parent"
+            android:layout_height="350dp" />
+        <ImageView
+            android:id="@+id/mt10"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt11"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt12"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <ImageView
+        android:id="@+id/mt13"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt14"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+        android:id="@+id/mt15"
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt16"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <ImageView
+            android:id="@+id/mt17"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt18"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt19"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt20"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+        <ImageView
+            android:id="@+id/mt21"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        <ImageView
+            android:id="@+id/mt22"
+            android:layout_width="match_parent"
+            android:layout_height="335dp" />
+        <Button
+            android:id="@+id/btn_nxt28"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:text="@string/nxt"
+            android:layout_gravity="center"
+            android:layout_below="@+id/subhead"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_pre28"
+            android:layout_width="400dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button_style"
+            android:text="@string/pre"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</ScrollView>

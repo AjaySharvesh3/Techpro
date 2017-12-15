@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/black"
     android:orientation="vertical"
-    tools:context="com.example.ajaysharvesh.techqpro1.ProfileActivity.ProfileActivity">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.ProfileActivity.ProfileActivity">
 
     <LinearLayout
         android:orientation="vertical"
@@ -18,7 +18,7 @@
         android:layout_height="100dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:src="@drawable/logo9" />
+        android:src="@drawable/ourlogo" />
 
     <TextView
         android:id="@+id/sample"

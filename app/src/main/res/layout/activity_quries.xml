@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Quries">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ourlogo" />
+
+    <TextView
+        android:id="@+id/sample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Query"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+    <!-- <EditText
+        android:id="@+id/sendto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email_id"
+        android:background="@drawable/bottom_style1"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/ic_action_mail"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_margin="10dp"/> -->
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:drawableLeft="@drawable/ic_action_firstname"
+        android:background="@drawable/bottom_style1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_margin="10dp"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/subject1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Typer your queries.."
+        android:drawableLeft="@drawable/ic_action_name_feedback"
+        android:background="@drawable/bottom_style1"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:layout_margin="10dp" />
+
+    <Button
+        android:id="@+id/query1"
+        android:layout_width="390dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/button_style"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>

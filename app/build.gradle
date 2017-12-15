@@ -1,9 +1,17 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'techproalias'
+            keyPassword '123456'
+            storeFile file('C:/Users/ajays/Desktop/techpro/techpro.jks')
+            storePassword '123456'
+        }
+    }
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.ajaysharvesh.techqpro1"
+        applicationId "com.wolfpack.ajaysharvesh.techqpro1"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -14,6 +22,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }

@@ -66,6 +66,9 @@
     <string name="python">Python</string>
     <string name="jp">Java - Python</string>
     <string name="learn3">Compare and learn Java - Python at a time..</string>
+    <string name="chatbot1">Chatbot</string>
+    <string name="chatbot2">Oops.! Chatbot is on process so please wait for the updation..</string>
+    <string name="chatbot3">Chat Here</string>
 
     <string name="name">Name</string>
     <string name="name1">Write a feedback..</string>
@@ -119,5 +122,17 @@
     <string name="inter">Interfaces</string>
     <string name="pack">Packages</string>
     <string name="ds">Data Structures</string>
+    <string name="cl">Collections</string>
+    <string name="gen">Generics</string>
+    <string name="ss">Serialization</string>
+    <string name="net">Networking</string>
+    <string name="em">Concept of sending Emails</string>
+    <string name="multi">Multithreading</string>
+    <string name="ab">Applet Basics</string>
+    <string name="doc">Documentations</string>
+    <string name="cgi">CGI Programming</string>
+    <string name="db">Database Access</string>
+    <string name="xmlp">XML Processing</string>
+    <string name="title_activity_main_main">MainMain</string>
 
 </resources>

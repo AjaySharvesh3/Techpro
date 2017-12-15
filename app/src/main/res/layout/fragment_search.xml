@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:background="@drawable/black"
     android:layout_height="match_parent"
-    tools:context="com.example.ajaysharvesh.techqpro1.Fragments.SearchFragment">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.Fragments.SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

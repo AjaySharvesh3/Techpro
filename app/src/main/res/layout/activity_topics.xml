@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ajaysharvesh.techqpro1.Functions.Topics">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Functions.Topics">
 
     <!-- <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -17,7 +17,7 @@
         app:theme="@style/AppTheme.NoActionBar" /> -->
 
     <ListView
-        android:padding="5dp"
+        android:padding="0dp"
         android:id="@+id/listview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

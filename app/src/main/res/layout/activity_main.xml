@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context="com.example.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
 
 
     <EditText

@@ -1,120 +1,158 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ajaysharvesh.techqpro1">
+    package="com.wolfpack.ajaysharvesh.techqpro1">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".FireApp"
+        android:name="com.wolfpack.ajaysharvesh.techqpro1.FireApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher_last_icon"
+        android:label="TechNPro"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".RegistrationActivity.LoginActivity"
-            android:label="@string/signin">
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistrationActivity.MainActivity" />
+        <activity android:name="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.LoginActivity"
+            android:label="Sign in"/>
+        <activity android:name="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity" />
         <activity
-            android:name=".RegistrationActivity.SignupActivity"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.SignupActivity"
             android:label="@string/signup" />
         <activity
-            android:name=".RegistrationActivity.ResetPasswordActivity"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.ResetPasswordActivity"
             android:label="@string/reset" />
         <activity
-            android:name=".RegistrationActivity.MainActivity2"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Functions.Topics"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics"
             android:label="@string/topics1"
-            android:parentActivityName=".RegistrationActivity.MainActivity2" />
-        <activity android:name=".Functions.TopicList" />
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2" />
+        <activity android:name="com.wolfpack.ajaysharvesh.techqpro1.Functions.TopicList" />
         <!-- android:parentActivityName=".Functions.Topics" -->
         <activity
-            android:name=".FeedbackActivity.Feedback"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.FeedbackActivity.Feedback"
             android:label="@string/feedback10"
-            android:parentActivityName=".RegistrationActivity.MainActivity2" />
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2" />
         <activity
-            android:name=".RatingActivity.Rating"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.RatingActivity.Rating"
             android:label="@string/rating10"
-            android:parentActivityName=".RegistrationActivity.MainActivity2" />
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2" />
         <activity
-            android:name=".ProfileActivity.ProfileActivity"
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.ProfileActivity.ProfileActivity"
             android:label="@string/profile10"
-            android:parentActivityName=".RegistrationActivity.MainActivity2" />
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2" />
         <activity
-            android:name=".Lists.BasicSyntax"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.BasicSyntax"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Lists.ObjectClass"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.ObjectClass"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Lists.DataTypes"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.DataTypes"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".VariableTypes"
-            android:parentActivityName=".Functions.Topics" />
-        <activity android:name=".LearnHere" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.VariableTypes"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".BasicOperators"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Quries"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity2" />
         <activity
-            android:name=".LoopControls"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.BasicOperators"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".DecisionMaking"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.LoopControls"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Numbers"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.DecisionMaking"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Strings"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Numbers"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".ArraysLists"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Strings"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".DateAndTime"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.ArraysLists"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".RegularExpression"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.DateAndTime"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Methods"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.RegularExpression"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".FilesIo"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Methods"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".ExceptionHandling"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.FilesIo"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Inheritance"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.ExceptionHandling"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Overriding"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Inheritance"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Polymorphism"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Overriding"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Encapsulation"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Polymorphism"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".Interfaces"
-            android:parentActivityName=".Functions.Topics" />
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Encapsulation"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
         <activity
-            android:name=".PakagesP"
-            android:parentActivityName=".Functions.Topics" />
-        <activity android:name=".DataStructures"></activity>
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Interfaces"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.PakagesP"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.DataStructures"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.CollectionsC"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.GenericsG"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.SerializationS"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Networking"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Emails"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Multithreading"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.AppletBasics"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.Documentations"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.CgiPro"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.DatabaseAccessDB"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
+        <activity
+            android:name="com.wolfpack.ajaysharvesh.techqpro1.Lists.XmlProcessing"
+            android:parentActivityName="com.wolfpack.ajaysharvesh.techqpro1.Functions.Topics" />
     </application>
 
 </manifest>

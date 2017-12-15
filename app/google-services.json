@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:739623590978:android:d956facdb456ee6d",
         "android_client_info": {
-          "package_name": "com.example.ajaysharvesh.techqpro1"
+          "package_name": "com.wolfpack.ajaysharvesh.techqpro1"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "739623590978-fjnlm74m0m54pn5c20evkke2t5g4d006.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.ajaysharvesh.techqpro1",
+            "package_name": "com.wolfpack.ajaysharvesh.techqpro1",
             "certificate_hash": "b40ebb8565f117eee5366f54e8b7092c71235567"
           }
         },
