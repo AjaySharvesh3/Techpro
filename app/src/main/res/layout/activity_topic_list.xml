@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#000"
     android:padding="10dp"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Functions.TopicList">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.Functions.TopicList">
 
     <RelativeLayout
         android:layout_width="match_parent"

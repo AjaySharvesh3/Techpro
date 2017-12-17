@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.RegistrationActivity.SignupActivity">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.SignupActivity">
 
     <!-- <ProgressBar
         android:id="@+id/progressBar"
@@ -130,6 +130,6 @@
             android:gravity="center"/>
     </LinearLayout>
 
-</android.support.constraint.ConstraintLayout>
+</ScrollView>
 
 

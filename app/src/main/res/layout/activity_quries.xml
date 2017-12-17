@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Quries">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.Quries">
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"

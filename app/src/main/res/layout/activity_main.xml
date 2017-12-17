@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
-
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
 
     <EditText
         android:id="@+id/old_email"
@@ -17,6 +16,7 @@
         android:background="@drawable/bottom_style"
         android:inputType="textEmailAddress"
         android:maxLines="1"
+        android:layout_marginTop="40dp"
         android:drawableLeft="@drawable/ic_action_mail"
         android:textColor="#fff"
         android:textColorHint="#fff"
@@ -181,5 +181,6 @@
         android:textColor="#fff"
         android:textSize="30sp"
         android:textStyle="bold|italic" />
+
 
 </RelativeLayout>

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/black"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.Fragments.EventsFragment">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.Fragments.EventsFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

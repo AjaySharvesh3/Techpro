@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/black"
     android:orientation="vertical"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.android.androidloverglrobo.ajaysharvesh.techqpro1.ProfileActivity.ProfileActivity">
+    tools:context="com.wolfpack.ajaysharvesh.techqpro1.ProfileActivity.ProfileActivity">
 
     <LinearLayout
         android:orientation="vertical"
