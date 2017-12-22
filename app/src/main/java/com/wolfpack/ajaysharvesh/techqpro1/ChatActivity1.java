@@ -21,6 +21,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.*;
+import com.firebase.ui.auth.BuildConfig;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -43,7 +44,7 @@ import java.util.Map;
 
 public class ChatActivity1 extends AppCompatActivity {
 
-    private static final String TAG = "ChatActivity1";
+    private static final String TAG = "MainActivity";
 
     public static final String ANONYMOUS = "anonymous";
     public static final int DEFAULT_MSG_LENGTH_LIMIT = 1000;
@@ -69,6 +70,7 @@ public class ChatActivity1 extends AppCompatActivity {
     private FirebaseStorage mFirebaseStorage;
     private StorageReference mChatPhotosReference;
     private FirebaseRemoteConfig mRemoteConfig;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -154,7 +156,7 @@ public class ChatActivity1 extends AppCompatActivity {
                 if(user != null){
                     //user signed-in
                     OnSignedIn(user.getDisplayName());
-                    Toast.makeText(ChatActivity1.this, "You are Signed-in.Welcome to Tech-N-Pro Discussion Box.",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(ChatActivity1.this, "You are Signed-in.Welcome to Friendly Chat App. \n\nIf you are not signed in for this discussion box tap on the three vertical dot icon to sign in here",Toast.LENGTH_SHORT).show();
                 } else {
                     //user signed-out
                     OnSignedOut();
@@ -172,7 +174,7 @@ public class ChatActivity1 extends AppCompatActivity {
             }
         };
         FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
-                .setDeveloperModeEnabled(com.firebase.ui.auth.BuildConfig.DEBUG)
+                .setDeveloperModeEnabled(BuildConfig.DEBUG)
                 .build();
 
         mRemoteConfig.setConfigSettings(configSettings);
@@ -312,7 +314,7 @@ public class ChatActivity1 extends AppCompatActivity {
             @Override
             public void onSuccess(Void aVoid) {
                 mRemoteConfig.activateFetched();
-                applyRetrievedLength();
+                applyRetrievedLength();;
 
 
             }
