@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.ChatActivity1">
+    tools:context="com.wolfpackalpha.ajaysharvesh.techqpro1.ChatActivity1">
 
     <ListView
         android:id="@+id/messageListView"

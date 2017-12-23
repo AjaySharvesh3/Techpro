@@ -35,6 +35,6 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textColor="@color/white"
-        android:text="technprowolfpack@gmail.com" />
+        android:text="technprowolfpackalpha@gmail.com" />
 
 </LinearLayout>

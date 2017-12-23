@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/black"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.Fragments.LogoutFragment">
+    tools:context="com.wolfpackalpha.ajaysharvesh.techqpro1.Fragments.LogoutFragment">
 
     <!-- TODO: Update blank fragment layout -->
 

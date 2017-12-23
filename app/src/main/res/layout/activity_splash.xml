@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/black"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.SplashActivity">
+    tools:context="com.wolfpackalpha.ajaysharvesh.techqpro1.SplashActivity">
         <LinearLayout
             android:layout_marginTop="-80dp"
             android:gravity="center"
@@ -52,7 +52,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-4701558520304866/2198268688">
+        ads:adUnitId="ca-app-pub-4701558520304866/3453368970">
     </com.google.android.gms.ads.AdView>
 </RelativeLayout>
     <!--ads:adUnitId="ca-app-pub-4701558520304866/3453368970">-->

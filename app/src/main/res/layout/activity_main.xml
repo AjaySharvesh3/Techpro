@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#000"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
+    tools:context="com.wolfpackalpha.ajaysharvesh.techqpro1.RegistrationActivity.MainActivity">
 
     <EditText
         android:id="@+id/old_email"

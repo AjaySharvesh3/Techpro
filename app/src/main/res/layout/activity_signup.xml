@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000"
-    tools:context="com.wolfpack.ajaysharvesh.techqpro1.RegistrationActivity.SignupActivity">
+    tools:context="com.wolfpackalpha.ajaysharvesh.techqpro1.RegistrationActivity.SignupActivity">
 
     <!-- <ProgressBar
         android:id="@+id/progressBar"
